@@ -2,11 +2,11 @@ package com.progress
 
 import groovy.json.JsonSlurper
 
-def defaultExecutorLabel = "linux"
-def pullRequestPrefix = "PR-"
+class Utilities {
+    private static defaultExecutorLabel = "linux"
+    private static pullRequestPrefix = "PR-"
 
-def test(String propertyName) {
-    echo "${defaultExecutorLabel} ${propertyName}"
+    static def test(String propertyName) {
+        echo "${defaultExecutorLabel} ${propertyName}"
+    }
 }
-
-return this
