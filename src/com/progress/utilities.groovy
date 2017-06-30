@@ -3,7 +3,7 @@ package com.progress
 import groovy.json.JsonSlurper
 
 class Utilities
-    private defaultExecutorLabel = "linux"
+    def defaultExecutorLabel
 
     Utilities() {
         this.defaultExecutorLabel = "linux"
