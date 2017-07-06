@@ -1,3 +1,3 @@
 def call(String item = 'itemNumber') {
-    echo "${itemNumber} updated"
+    echo "${item} updated"
 }
