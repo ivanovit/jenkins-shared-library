@@ -8,3 +8,5 @@ def test(String propertyName) {
     echo defaultExecutorLabel
     echo "${defaultExecutorLabel} ${propertyName}"
 }
+
+return this
