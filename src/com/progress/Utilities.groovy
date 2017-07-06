@@ -2,7 +2,7 @@ package com.progress
 
 import groovy.json.JsonSlurper
  
-defaultExecutorLabel = "linux"
+def defaultExecutorLabel = "linux"
 
 def test(String propertyName) {
     echo defaultExecutorLabel
