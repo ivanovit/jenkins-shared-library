@@ -3,13 +3,9 @@ package com.progress
 import groovy.json.JsonSlurper
 
 class Utilities
-    def defaultExecutorLabel
+    static String defaultExecutorLabel = "linux"
 
-    Utilities() {
-        this.defaultExecutorLabel = "linux"
-    }
-
-    def test(String propertyName) {
+    static void test(String propertyName) {
         echo this.defaultExecutorLabel
         echo "${this.defaultExecutorLabel} ${propertyName}"
     }
